@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6da423c4-e2de-4099-967d-746a5dd9ffb1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YXsY7TwIeRGWG6jRXJijgV9ffP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../hello-service-use/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da423c4-e2de-4099-967d-746a5dd9ffb1" name="Default Changelist" comment="" />
+      <created>1583100317803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583100317803</updated>
+      <workItem from="1583100319367" duration="1220000" />
+      <workItem from="1583101676134" duration="517000" />
+      <workItem from="1583102636580" duration="1266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1583100414914">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1583100414914" />
+    <state x="208" y="0" key="SettingsEditor" timestamp="1583102793631">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583102793631" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.799@0.23.1440.799" timestamp="1583100354693" />
+    <state x="503" y="235" key="chooseDestDirectoryDialog" timestamp="1583102832348">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="235" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1583102832348" />
+    <state x="97" y="116" key="new project wizard" timestamp="1583102778291">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="116" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1583102778291" />
+  </component>
+</project>
