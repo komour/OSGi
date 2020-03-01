@@ -1,3 +1,3 @@
-# Simple hello-world project using OSGi
+## Simple hello-world project using OSGi
 
-## hello-service-use bundle consumes service located in hello-service bundle
+hello-service-use bundle consumes service from hello-service bundle
