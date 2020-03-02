@@ -9,7 +9,6 @@
     <version>1.0.0</version>
     <name>Hello-Service-Use</name>
     <packaging>bundle</packaging>
-    <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>org.apache.felix</groupId>
@@ -20,7 +19,6 @@
             <groupId>ru.ifmo.komarov.helloservice</groupId>
             <artifactId>hello-service</artifactId>
             <version>1.0.0</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -33,22 +31,11 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>
-                            ${project.groupId}
-                        </Bundle-SymbolicName>
-                        <Bundle-Name>
-                            ${project.name}
-                        </Bundle-Name>
-                        <Bundle-Version>
-                            ${project.version}
-                        </Bundle-Version>
-                        <Bundle-Activator>
-                            ${project.groupId}.Activator
-                        </Bundle-Activator>
-                        <Import-Package>
-                            org.osgi.framework.*,
-                            ru.ifmo.komarov.helloservice
-                        </Import-Package>
+                        <Import-Package>org.osgi.framework.*, ru.ifmo.komarov.helloservice.*</Import-Package>
+                        <Bundle-SymbolicName>${project.groupId}</Bundle-SymbolicName>
+                        <Bundle-Name>${project.name}</Bundle-Name>
+                        <Bundle-Version>${project.version}</Bundle-Version>
+                        <Bundle-Activator>${project.groupId}.Activator</Bundle-Activator>
                     </instructions>
                 </configuration>
             </plugin>

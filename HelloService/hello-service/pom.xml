@@ -9,7 +9,6 @@
     <version>1.0.0</version>
     <name>Hello-Service</name>
     <packaging>bundle</packaging>
-    <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
             <groupId>org.apache.felix</groupId>
@@ -27,21 +26,11 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Bundle-SymbolicName>
-                            ${project.groupId}
-                        </Bundle-SymbolicName>
-                        <Bundle-Name>
-                            ${project.name}
-                        </Bundle-Name>
-                        <Bundle-Version>
-                            ${project.version}
-                        </Bundle-Version>
-                        <Bundle-Activator>
-                            ${project.groupId}.activator.Activator
-                        </Bundle-Activator>
-                        <Export-Package>
-                            ru.ifmo.komarov.helloservice
-                        </Export-Package>
+                        <Export-Package>ru.ifmo.komarov.helloservice.*</Export-Package>
+                        <Bundle-SymbolicName>${project.groupId}</Bundle-SymbolicName>
+                        <Bundle-Name>${project.name}</Bundle-Name>
+                        <Bundle-Version>${project.version}</Bundle-Version>
+                        <Bundle-Activator>${project.groupId}.activator.Activator</Bundle-Activator>
                     </instructions>
                 </configuration>
             </plugin>

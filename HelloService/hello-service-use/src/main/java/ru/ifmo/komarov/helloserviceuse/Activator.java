@@ -4,7 +4,7 @@ import org.osgi.framework.BundleContext;
 import org.osgi.framework.BundleActivator;
 
 import ru.ifmo.komarov.helloservice.HelloService;
-import ru.ifmo.komarov.helloservice.HelloServiceImpl;
+import ru.ifmo.komarov.helloservice.impl.HelloServiceImpl;
 
 public class Activator implements BundleActivator {
 
