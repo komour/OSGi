@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6da423c4-e2de-4099-967d-746a5dd9ffb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/.idea/dictionaries/asap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/src/main/java/ru/ifmo/komarov/helloservice/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-SCR/src/main/java/ru/ifmo/komarov/helloservice/Impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-use-SCR/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HelloServiceSCR/hello-service-use-SCR/src/main/java/ru/ifmo/komarov/helloserviceuse/HelloServiceUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-service-use/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-service-use/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-service-use/src/main/java/ru/ifmo/komarov/helloserviceuse/Activator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hello-service-use/src/main/java/ru/ifmo/komarov/helloserviceuse/Activator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ifmo/komarov/helloservice/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ifmo/komarov/helloservice/impl/HelloServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +63,8 @@
       <workItem from="1583106329701" duration="80000" />
       <workItem from="1583107347187" duration="701000" />
       <workItem from="1583110649457" duration="50000" />
-      <workItem from="1583114339656" duration="671000" />
+      <workItem from="1583114339656" duration="835000" />
+      <workItem from="1583115539485" duration="256000" />
     </task>
     <servers />
   </component>
