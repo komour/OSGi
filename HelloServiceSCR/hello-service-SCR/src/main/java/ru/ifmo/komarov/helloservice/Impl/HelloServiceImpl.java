@@ -1,14 +1,12 @@
 package ru.ifmo.komarov.helloservice.Impl;
 
-import org.apache.felix.scr.annotations.Activate;
-import org.apache.felix.scr.annotations.Component;
-import org.apache.felix.scr.annotations.Deactivate;
-import org.apache.felix.scr.annotations.Service;
+
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
 import ru.ifmo.komarov.helloservice.HelloService;
 
-@SuppressWarnings("deprecation")
 @Component
-@Service
 public class HelloServiceImpl implements HelloService {
     public void sayHello() {
         System.out.println("Hello OSGi world!");

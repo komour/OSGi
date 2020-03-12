@@ -1,14 +1,14 @@
 package ru.ifmo.komarov.hellocomand.impl;
 
-import org.apache.felix.scr.annotations.*;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.Component;
+import osgi.enroute.debug.api.Debug;
 import ru.ifmo.komarov.hellocomand.HelloCommand;
 
-@SuppressWarnings("deprecation")
-@Component
-@Service
-@Properties({
-        @Property(name = "osgi.command.scope", value = "practice"),
-        @Property(name = "osgi.command.function", value = "hello")
+@Component(property = {
+        Debug.COMMAND_SCOPE + "=practice",
+        Debug.COMMAND_FUNCTION + "=hello"
 })
 public class HelloCommandImpl implements HelloCommand {
 
@@ -16,7 +16,7 @@ public class HelloCommandImpl implements HelloCommand {
 //    protected void onActivate() {
 //        System.out.println("hello-command activated.");
 //    }
-
+//
 //    @Deactivate
 //    protected void onDeactivate() {
 //        System.out.println("hello-command deactivated.");

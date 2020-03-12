@@ -1,13 +1,12 @@
 package ru.ifmo.komarov.helloserviceuse;
 
-import org.apache.felix.scr.annotations.*;
+import org.osgi.service.component.annotations.*;
 import ru.ifmo.komarov.helloservice.HelloService;
 
-@SuppressWarnings("deprecation")
 @Component
 public class HelloServiceUse {
 
-    @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY, policyOption = ReferencePolicyOption.GREEDY)
+    @Reference
     private HelloService hello;
 
     @Activate
@@ -18,7 +17,6 @@ public class HelloServiceUse {
     @Deactivate
     void goodbye() {
         System.out.println("Bye Bye!");
-        ;
     }
 
 }
