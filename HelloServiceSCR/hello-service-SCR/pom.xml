@@ -42,6 +42,7 @@
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->
                         <_metatypeannotations>*</_metatypeannotations>
+                        <Private-Package>ru.ifmo.komarov.helloservice.Impl</Private-Package>
                     </instructions>
                 </configuration>
             </plugin>
