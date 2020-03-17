@@ -4,6 +4,7 @@ import org.osgi.service.component.annotations.*;
 import ru.ifmo.komarov.helloservice.HelloService;
 
 @Component
+
 public class HelloServiceUse {
 
     @Reference
