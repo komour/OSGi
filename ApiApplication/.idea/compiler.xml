@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-helper" />
-        <module name="abstract-service" />
-        <module name="aif-parser" />
         <module name="lenta-parser" />
+        <module name="aif-parser" />
+        <module name="abstract-service" />
         <module name="main-command" />
       </profile>
     </annotationProcessing>

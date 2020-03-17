@@ -46,6 +46,7 @@
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->
                         <_metatypeannotations>*</_metatypeannotations>
+                        <Private-Package>ru.ifmo.komarov.application.apihelper.impl</Private-Package>
                     </instructions>
                 </configuration>
             </plugin>

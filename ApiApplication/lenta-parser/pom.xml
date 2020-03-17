@@ -62,7 +62,8 @@
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->
                         <_metatypeannotations>*</_metatypeannotations>
-                        <Export-Package>ru.ifmo.komarov.application.lenta,org.json.*</Export-Package>
+                        <Export-Package>org.json.*</Export-Package>
+                        <Private-Package>ru.ifmo.komarov.application.lenta</Private-Package>
                     </instructions>
                 </configuration>
             </plugin>

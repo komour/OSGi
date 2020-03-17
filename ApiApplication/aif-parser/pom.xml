@@ -62,7 +62,8 @@
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->
                         <_metatypeannotations>*</_metatypeannotations>
-                        <Export-Package>ru.ifmo.komarov.application.aif,org.jsoup.*</Export-Package>
+                        <Export-Package>org.jsoup.*</Export-Package>
+                        <Private-Package>ru.ifmo.komarov.application.aif</Private-Package>
                     </instructions>
                 </configuration>
             </plugin>

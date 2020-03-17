@@ -22,16 +22,6 @@
             <version>2.0.0</version>
         </dependency>
         <dependency>
-            <groupId>ru.ifmo.komarov.application.aif</groupId>
-            <artifactId>aif-parser</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>ru.ifmo.komarov.application.lenta</groupId>
-            <artifactId>lenta-parser</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
             <groupId>ru.ifmo.komarov.application.service</groupId>
             <artifactId>abstract-service</artifactId>
             <version>1.0.0</version>
