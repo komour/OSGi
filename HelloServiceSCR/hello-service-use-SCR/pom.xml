@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.ifmo.komarov.helloserviceuse</groupId>
-    <artifactId>hello-service-use</artifactId>
+    <artifactId>kai-hello-service-use</artifactId>
     <version>1.0.0</version>
-    <name>Hello-Service-Use</name>
     <packaging>bundle</packaging>
     <url>http://maven.apache.org</url>
     <dependencies>

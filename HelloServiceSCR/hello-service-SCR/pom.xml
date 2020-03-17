@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.ifmo.komarov.helloservice</groupId>
-    <artifactId>hello-service</artifactId>
+    <artifactId>kai-hello-service</artifactId>
     <version>1.0.0</version>
-    <name>Hello-Service</name>
     <packaging>bundle</packaging>
 
     <dependencies>
